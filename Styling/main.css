@@ -117,3 +117,53 @@ h4.center {
 i.center {
     padding-left: calc(50% - 37.5px)
 }
+
+.drop-down-card {
+
+}
+
+.drop-down-button {
+    width: 100%;
+    text-align: left;
+}
+
+.emotional-button {
+    background-color: #272362;
+    border-color: #272362;
+}
+.spiritual-button {
+    background-color: #D20000;
+    border-color: #D20000;
+}
+.physical-button {
+    background-color: #0BB600;
+    border-color: #0BB600;
+}
+.social-button {
+    background-color: #FFCC00;
+    border-color: #FFCC00;
+}
+
+.emotional-button:hover {
+    background-color: #1d184b;
+    border-color: #1d184b;
+}
+
+.spiritual-button:hover {
+    background-color: rgb(150, 0, 0);
+    border-color: rgb(150, 0, 0);
+}
+
+.physical-button:hover {
+    background-color: rgb(10, 148, 0);
+    border-color: rgb(10, 148, 0);
+}
+
+.social-button:hover {
+    background-color: rgb(219, 175, 0);
+    border-color: rgb(219, 175, 0);
+}
+
+.component {
+    padding-top: 15px;
+}
