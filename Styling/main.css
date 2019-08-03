@@ -69,7 +69,7 @@ a:hover {
     text-decoration: none;
 }
 
-a:hover {
+.big-contact:hover {
     border-bottom: 3px solid #272362;
     padding-bottom: 3px;
 }
