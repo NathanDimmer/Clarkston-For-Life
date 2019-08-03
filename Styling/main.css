@@ -79,6 +79,7 @@ a, a:hover {
 
 .contact-card-big {
     display: inline;
+    vertical-align: 50%;
 }
 
 .float-left {
