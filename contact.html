@@ -14,8 +14,6 @@
 
     <title>Clarkston For Life</title>
 
-    <script src="https://kit.fontawesome.com/598f60f0ae.js"></script>
-
     <link rel="apple-touch-icon" sizes="57x57" href="Assets/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="Assets/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="Assets/apple-icon-72x72.png">
@@ -33,6 +31,23 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="Assets/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <script src="https://kit.fontawesome.com/598f60f0ae.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+    <script>
+        $(window).on('resize', function () {
+            if ($(window).width() > 990) {
+                $('#heading').addClass('hide');
+                $('#heading').removeClass('show');
+            } else {
+                $('#heading').addClass('show');
+                $('#heading').removeClass('hide');
+            }
+        })
+    </script>
 </head>
 
 <body>
@@ -52,7 +67,7 @@
                     <a class="nav-link" href="index.html">About us</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact Us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact Us<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="components.html">Components</a>
@@ -64,6 +79,7 @@
         </div>
     </nav>
     <div class="main">
+        <h2 class="show hide" id="heading">About Us</h2>
         <i class="fas fa-envelope-square"></i>
         <i class="fab fa-facebook-square"></i>
         <i class="fab fa-twitter-square"></i>

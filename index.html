@@ -32,15 +32,19 @@
     <meta name="msapplication-TileImage" content="Assets/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <script src="https://kit.fontawesome.com/598f60f0ae.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
     <script>
         $(window).on('resize', function () {
-            console.log("Working!")
             if ($(window).width() > 990) {
-                $('#heading').addClass('show');
-                $('#heading').removeClass('hide');
-            } else {
                 $('#heading').addClass('hide');
                 $('#heading').removeClass('show');
+            } else {
+                $('#heading').addClass('show');
+                $('#heading').removeClass('hide');
             }
         })
     </script>
