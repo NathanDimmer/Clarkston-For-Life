@@ -51,16 +51,19 @@ h2 {
 
 .email {
     font-size: 75px;
+    padding-right: 10px;
 }
 
 .facebook {
     font-size: 75px;
     color: #4064AE;
+    padding-right: 10px;
 }
 
 .twitter {
     font-size: 75px;
     color: #0A9DE6;
+    padding-right: 10px;
 }
 
 a,
@@ -118,33 +121,38 @@ i.center {
     padding-left: calc(50% - 37.5px)
 }
 
-.drop-down-card {
+.drop-down-card {}
 
-}
-
-.drop-down-button {
+.drop-down-button,
+.drop-down-button:active,
+.drop-down-button:hover {
     width: 100%;
     text-align: left;
+    color: #ffffff;
 }
 
 .emotional-button {
     background-color: #272362;
     border-color: #272362;
 }
+
 .spiritual-button {
     background-color: #D20000;
     border-color: #D20000;
 }
+
 .physical-button {
     background-color: #0BB600;
     border-color: #0BB600;
 }
+
 .social-button {
     background-color: #FFCC00;
     border-color: #FFCC00;
 }
 
-.emotional-button:hover {
+.emotional-button:hover,
+.emotional-button:active {
     background-color: #1d184b;
     border-color: #1d184b;
 }
