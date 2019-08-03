@@ -42,9 +42,21 @@
             if ($(window).width() > 990) {
                 $('#heading').addClass('hide');
                 $('#heading').removeClass('show');
+
+                $('#big').addClass('show');
+                $('#big').removeClass('hide');
+
+                $('#small').addClass('hide');
+                $('#small').removeClass('show');
             } else {
                 $('#heading').addClass('show');
                 $('#heading').removeClass('hide');
+
+                $('#big').addClass('hide');
+                $('#big').removeClass('show');
+
+                $('#small').addClass('show');
+                $('#small').removeClass('hide');
             }
         })
     </script>
@@ -78,13 +90,39 @@
             </ul>
         </div>
     </nav>
-    <div class="main">
-        <h2 class="show hide" id="heading">About Us</h2>
-        <i class="fas fa-envelope-square"></i>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter-square"></i>
+    <div class="content">
+        <h2 class="show hide" id="heading">Contact Us</h2>
+        <div id="big" class="show">
+            <div class="contact-card-big">
+            <a href="mailto:clarkstonforlife@gmail.com" class="">
+                <i class="fas fa-envelope-square email"></i>
+            <h4 class="contact-card-big">Send us an email:</h4>
+            <h4 class="contact-card-big">clarkstonforlife@gmail.com</h4>
+            </a>
+            </div>
+            <div>
+            <a href="https://www.facebook.com/ClarkstonForLife/" target="_blank">
+                <i class="fab fa-facebook-square facebook"></i>
+            </a>
+            </div>
+            <div>
+            <a href="https://twitter.com/Clarkston4Life" target="_blank">
+                <i class="fab fa-twitter-square twitter"></i>
+            </a>
+            </div>
+        </div>
+        <div id="small" class="show hide">
+            <a href="mailto:clarkstonforlife@gmail.com" class="">
+                <i class="fas fa-envelope-square email"></i>
+            </a>
+            <a href="https://www.facebook.com/ClarkstonForLife/" target="_blank">
+                <i class="fab fa-facebook-square facebook"></i>
+            </a>
+            <a href="https://twitter.com/Clarkston4Life" target="_blank">
+                <i class="fab fa-twitter-square twitter"></i>
+            </a>
+        </div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
