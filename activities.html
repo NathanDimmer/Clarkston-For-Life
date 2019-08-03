@@ -2,64 +2,65 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/Styling/main.css">
+        <link rel="stylesheet" href="/Styling/main.css">
+        <link rel="stylesheet" href="/Styling/bill.css">
 
-    <title>Clarkston For Life</title>
+        <title>Clarkston For Life</title>
 
-    <link rel="apple-touch-icon" sizes="57x57" href="Assets/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="Assets/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="Assets/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="Assets/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="Assets/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="Assets/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="Assets/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="Assets/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="Assets/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="Assets/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
-    <link rel="manifest" href="Assets/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="Assets/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+        <link rel="apple-touch-icon" sizes="57x57" href="Assets/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="Assets/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="Assets/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="Assets/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="Assets/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="Assets/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="Assets/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="Assets/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="Assets/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="Assets/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
+        <link rel="manifest" href="Assets/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="Assets/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 
-    <script src="https://kit.fontawesome.com/598f60f0ae.js"></script>
+        <script src="https://kit.fontawesome.com/598f60f0ae.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 
-    <script>
-        $(window).on('resize', function () {
-            if ($(window).width() > 990) {
-                $('#heading').addClass('hide');
-                $('#heading').removeClass('show');
+        <script>
+            $(window).on('resize', function () {
+                if ($(window).width() > 990) {
+                    $('#heading').addClass('hide');
+                    $('#heading').removeClass('show');
 
-                $('#big').addClass('show');
-                $('#big').removeClass('hide');
+                    $('#big').addClass('show');
+                    $('#big').removeClass('hide');
 
-                $('#small').addClass('hide');
-                $('#small').removeClass('show');
-            } else {
-                $('#heading').addClass('show');
-                $('#heading').removeClass('hide');
+                    $('#small').addClass('hide');
+                    $('#small').removeClass('show');
+                } else {
+                    $('#heading').addClass('show');
+                    $('#heading').removeClass('hide');
 
-                $('#big').addClass('hide');
-                $('#big').removeClass('show');
+                    $('#big').addClass('hide');
+                    $('#big').removeClass('show');
 
-                $('#small').addClass('show');
-                $('#small').removeClass('hide');
-            }
-        })
-    </script>
+                    $('#small').addClass('show');
+                    $('#small').removeClass('hide');
+                }
+            })
+        </script>
 </head>
 
 <body>
@@ -93,59 +94,69 @@
     <div class="content">
         <h2 class="show hide" id="heading">Activities</h2>
         <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
+            <div class="col-sm-6 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">READ</h3>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-2">
+                                    <p class="columncenter"><i class="fas fa-book-open icon"></i></p.center>
+                                </div>
+                                <div class="col-lg-8 col-sm-10">
+                                    Reading is a vital source of learning and growing. We will provide reading
+                                    opportunities
+                                    each season of well-being, including a collection of books, articles or blogs.<p></p>
+                                    <a href="#" class="btn btn-primary">#clarkstonforlifereads</a>
+                                </div>
+                            </div>
+                    </div>
+                 </div>
+            </div>
+
+        <div class="col-sm-6 col-lg-4">
+            <div class="card">
                 <div class="card-body">
-                  <h3 class="card-title">READ</h3>
-                  <p class="card-text"><i class="fas fa-book-open"></i>Reading is a vital source of learning and growing. We will provide reading opportunities each season of well-being, including a collection of books, articles or blogs.
-                    </p>
-                  <a href="#" class="btn btn-primary">#clarkstonforlifereads</a>
+                    <h3 class="card-title">WATCH</h3>
+                    <p class="card-text">Some of us are visual learners! We will provide watching opportunities each
+                        season of wellbeing, whether it be movies, documentaries or videos.</p>
+                    <a href="#" class="btn btn-primary">#clarkstonforlifewatches</a>
                 </div>
-              </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="card">
                 <div class="card-body">
-                  <h3 class="card-title">WATCH</h3>
-                  <p class="card-text">Some of us are visual learners! We will provide watching opportunities each season of wellbeing, whether it be movies, documentaries or videos.</p>
-                  <a href="#" class="btn btn-primary">#clarkstonforlifewatches</a>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h3 class="card-title">LISTEN</h3>
-                      <p class="card-text"><i class="fas fa-book-open"></i>Some of us are auditory learners! We will provide listening opportunities each season of well-being, whether it be podcasts, music or books on tape.</p>
-                      <a href="#" class="btn btn-primary">#clarkstonforlifelistens</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h3 class="card-title">ATTEND</h3>
-                      <p class="card-text">Some of us like to be out and about! We will provide opportunities for events each season of well-being, whether it be lectures, family fun or community gatherings.</p>
-                      <a href="#" class="btn btn-primary">#clarkstonforlifeattends</a>
-                    </div>
-                  </div>
+                    <h3 class="card-title">LISTEN</h3>
+                    <p class="card-text"><i class="fas fa-book-open"></i>Some of us are auditory learners! We
+                        will provide listening opportunities each season of well-being, whether it be podcasts,
+                        music or books on tape.</p>
+                    <a href="#" class="btn btn-primary">#clarkstonforlifelistens</a>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h3 class="card-title">DO</h3>
-                      <p class="card-text"><i class="fas fa-book-open"></i>Some of us need to be active! We will provide opportunities to get involved each season of well-being, whether it be active family ideas, workouts, or simple wellness strategies to try.</p>
-                      <a href="#" class="btn btn-primary">#clarkstonforlifedoes</a>
-                    </div>
-                  </div>
-                </div>
-                
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">ATTEND</h3>
+                    <p class="card-text">Some of us like to be out and about! We will provide opportunities for
+                        events each season of well-being, whether it be lectures, family fun or community
+                        gatherings.</p>
+                    <a href="#" class="btn btn-primary">#clarkstonforlifeattends</a>
                 </div>
             </div>
-          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">DO</h3>
+                    <p class="card-text"><i class="fas fa-book-open"></i>Some of us need to be active! We will
+                        provide opportunities to get involved each season of well-being, whether it be active
+                        family ideas, workouts, or simple wellness strategies to try.</p>
+                    <a href="#" class="btn btn-primary">#clarkstonforlifedoes</a>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
