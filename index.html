@@ -31,16 +31,27 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="Assets/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <script>
+        $(window).on('resize', function () {
+            console.log("Working!")
+            if ($(window).width() > 990) {
+                $('#heading').addClass('show');
+                $('#heading').removeClass('hide');
+            } else {
+                $('#heading').addClass('hide');
+                $('#heading').removeClass('show');
+            }
+        })
+    </script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light top-nav nav-colors">
         <a class="navbar-brand nav-colors large-logo" href="index.html">
             <img srcset="Assets/Clarkston_For_Life_Logo_Large.png 288w,
-                         Assets/Clarkston_For_Life_Logo_Small.png 200w" 
-                         sizes="(max-width: 990px) 200px,
-                         288px" 
-                         src="Assets/Clarkston_For_Life_Logo_Large.png">
+                         Assets/Clarkston_For_Life_Logo_Small.png 200w" sizes="(max-width: 990px) 200px,
+                         288px" src="Assets/Clarkston_For_Life_Logo_Large.png">
         </a>
         <button class="navbar-toggler nav-colors" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,6 +75,7 @@
         </div>
     </nav>
     <div class="main">
+        <h2 class="show hide" id="heading">About Us</h2>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg">

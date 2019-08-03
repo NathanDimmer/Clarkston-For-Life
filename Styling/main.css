@@ -21,7 +21,8 @@
 
 .card-title {
     color: #272362;
-    border-bottom: 3px solid #272362
+    border-bottom: 3px solid #272362;
+    padding-bottom: 3px;
 }
 
 .card {
@@ -32,3 +33,17 @@
     margin: 0px;
 }
 
+h2 {
+    margin-left: 38.25px;
+    margin-right: 38.25px;
+    color: #D20000;
+    border-bottom: #D20000 3px solid;
+}
+
+.show {
+
+}
+
+.hide {
+    
+}
